@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1: Bernoulli's Theorem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fluid Mechanics Virtual Lab</h1>
+        <h2>Dr. B.R. Ambedkar National Institute of Technology Jalandhar</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experiment2.html">Next Experiment</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Experiment 1: Verification of Bernoulli's Theorem</h2>
+            <article>
+                <h3>Manual</h3>
+                <p>The objective of this experiment is to verify Bernoulli's Theorem.</p>
+                <p><strong>Range of Experiments:</strong></p>
+                <ul>
+                    <li>Familiarization with static & total pressure measurement</li>
+                    <li>Demonstration of the continuity equation</li>
+                    <li>Demonstration of Bernoulli's equation</li>
+                    <li>Measurement & display of static pressure variation along venturimeter at different flow rates</li>
+                </ul>
+                <p><strong>Specifications:</strong></p>
+                <ul>
+                    <li>Piezometer tubes: Acrylic tubes (7 No's)</li>
+                    <li>Flow measurement: Using measuring tank with piezometer, capacity 35 Ltr</li>
+                    <li>Water circulation: 0.5 HP pump (standard make)</li>
+                    <li>Sump Tank capacity: 64x30x35 cm = 70 Ltr</li>
+                    <li>Tank material: MS sheet (inside surface provided with ERP to avoid corrosion)</li>
+                    <li>Setup is a self-contained recirculation unit</li>
+                </ul>
+                <p><strong>Equipment:</strong></p>
+                <ul>
+                    <li>Supply water tank</li>
+                    <li>Discharge measuring tank with pressure head tube</li>
+                    <li>Variable area duct with minimum area at the middle with connections to piezometer tubes at different sections</li>
+                    <li>Stopwatch</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Theory</h3>
+                <p>Considering frictionless flow along a variable area duct, the law of conservation of energy states that for an inviscid, incompressible, irrotational, and steady flow along a streamline, the total energy (or head) remains the same. This is known as Bernoulli's equation. The total head of flowing fluid consists of pressure head, velocity head, and elevation head. Hence:</p>
+                <p>
+
+\[ \frac{p_1}{w} + \frac{V_1^2}{2g} + Z_1 = \frac{p_2}{w} + \frac{V_2^2}{2g} + Z_2 \]
+
+</p>
+                <p>Neglecting losses:</p>
+                <p>
+
+\[ \frac{p}{w} + \frac{V^2}{2g} + Z = \text{Constant} \]
+
+</p>
+            </article>
+            <article>
+                <h3>Diagram</h3>
+                <img src="images/experiment1_diagram.png" alt="Diagram for Bernoulli's Theorem Experiment" style="max-width: 100%;">
+            </article>
+            <article>
+                <h3>Observations</h3>
+                <p>1. Switch on the Power and Start the Motor.</p>
+                <p>2. Measure the distance of each piezometer tube from the inlet section and area of cross-section.</p>
+                <p>3. Measure the area of the discharge measuring tank.</p>
+                <p>4. Adjust the flow when the head in the tube becomes constant with the help of the control valve. Note the height in all tubes, i.e., pressure head \(p/w\).</p>
+                <h4>Observation 2:</h4>
+                <p>When time = 20 sec.</p>
+                <table>
+                    <tr>
+                        <th>Tube No.</th>
+                        <th>Pressure Head (cm)</th>
+                        <th>Tube Dia. (cm)</th>
+                        <th>Area (cm²)</th>
+                        <th>Velocity V (cm/s)</th>
+                        <th>Velocity Head \(V^2/2g\) (cm)</th>
+                        <th>Total Head (cm)</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>32.5</td>
+                        <td>2.5</td>
+                        <td>4.91</td>
+                        <td>6.15</td>
+                        <td>1.93</td>
+                        <td>34.43</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>15.0</td>
+                        <td>2.5</td>
+                        <td>4.91</td>
+                        <td>6.15</td>
+                        <td>1.93</td>
+                        <td>16.93</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>21.1</td>
+                        <td>2.5</td>
+                        <td>4.91</td>
+                        <td>6.15</td>
+                        <td>1.93</td>
+                        <td>23.03</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>27.0</td>
+                        <td>2.5</td>
+                        <td>4.91</td>
+                        <td>6.15</td>
+                        <td>1.93</td>
+                        <td>28.93</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>28.1</td>
+                        <td>2.5</td>
+                        <td>4.91</td>
+                        <td>6.15</td>
+                        <td>1.93</td>
+                        <td>30.19</td>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h3>Results</h3>
+                <p>By conducting the experiment on Bernoulli's apparatus, we observed the following:</p>
+                <p>Total head at 15 sec = 36.295 cm</p>
+                <p>Total head at 20 sec = 34.628 cm</p>
+                <p>The total head remained approximately constant, verifying Bernoulli's theorem.</p>
+            </article>
+            <article>
+                <h3>Precautions</h3>
+                <ul>
+                    <li>Ensure all connections are properly tightened to avoid leaks.</li>
+                    <li>Do not exceed the maximum flow rate to prevent damage to the apparatus.</li>
+                    <li>Always wear safety goggles and gloves during the experiment.</li>
+                    <li>Make sure the electrical components are dry before switching on the power.</li>
+                    <li>Handle the piezometer tubes carefully to avoid breakage.</li>
+                    <li>Ensure the water level in the supply tank is adequate before starting the pump.</li>
+                    <li>Monitor the pressure readings carefully and stop the experiment if abnormal values are observed.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Working</h3>
+                <p>The experimental setup consists of a variable area duct made of perpex sheets with known size at the entrance, center, and outlet. Piezometer tubes are fitted at regular intervals along the duct. An inlet tank is connected to the upstream end of the duct, with supply regulated by an inlet valve. The discharge end of the duct has an outlet valve, and a discharge measuring tank is situated below the outlet valve for collecting water.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dr. B.R. Ambedkar National Institute of Technology Jalandhar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
